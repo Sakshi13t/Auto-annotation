@@ -1,7 +1,5 @@
 # Auto-annotation Model
-
-![Auto-annotation Model](https://via.placeholder.com/800x400.png?text=Auto-annotation+Model+Overview)  
-
+ 
 ## Overview  
 This repository contains an **Auto-annotation Model** that detects and classifies the MRP area in images of cement bags, as well as other specified image types. The model automates the annotation process, saving significant manual effort. It supports both MRP and print vision auto-annotation tasks.  
 
@@ -35,8 +33,9 @@ The auto-annotation process leverages state-of-the-art machine learning techniqu
 To use the trained model for **MRP** and **Print Vision Auto-annotation**, follow these steps:  
 1. Clone this repository into the same directory where Ultralytics (virtual environment) was downloaded:  
     ```bash
-    git clone <repository-link>
-    cd <repository-folder>
+    git clone <https://github.com/Sakshi13t/Auto-annotation>
+    cd <MRP> for MRP detection
+    cd <Printvision> for Character detection
     ```  
 
 2. Open `infer_model.py`, the script responsible for performing annotations.  
@@ -64,7 +63,8 @@ To use the trained model for **MRP** and **Print Vision Auto-annotation**, follo
 ## Example Output  
 
 Annotated images with detected regions of interest (e.g., MRP area) are generated and saved automatically. Here's an example of the expected output:  
-![Annotated Example](https://via.placeholder.com/800x400.png?text=Annotated+Image+Example)  
+![Annotated Example](https://github.com/Sakshi13t/Auto-annotation/blob/main/MRP/notok_classification.jpg)  
+![Annotated Example-2](https://github.com/Sakshi13t/Auto-annotation/blob/main/MRP/ok_classification.jpg)  
 
 --- 
 
