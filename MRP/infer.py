@@ -5,7 +5,7 @@ model = YOLO(r'C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\yolo_mrp_training\wei
 
 # Perform inference
 results = model.predict(
-    source=r'C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\testdata3',
+    source=r'C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\testdata',# Pass the test data folder path 
     save=True,
     imgsz=640
 )
