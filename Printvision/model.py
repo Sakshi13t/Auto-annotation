@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load YOLOv8n model 
-model = YOLO('yolov8n.pt')
+model = YOLO('path to best.pt/best.onxx')
 
 # Train the model
 model.train(
