@@ -5,7 +5,7 @@ model = YOLO('yolov8n.pt')
 
 # Train the model
 model.train(
-    data=r'C:\Users\Amazin\ultralytics\printvis\dataset.yaml', 
+    data=r'C:\Users\xyz\ultralytics\printvis\dataset.yaml', 
     epochs=50, 
     augment=True,                  
     imgsz=640,                   
@@ -22,5 +22,5 @@ print(metrics)
 
 #exporting the model
 model.export(format='onnx') 
-#C:\Users\Amazin\ultralytics\yoloenv\runs\train\custom_yolov8n3\weights\best.pt
+
 
