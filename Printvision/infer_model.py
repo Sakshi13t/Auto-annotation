@@ -1,30 +1,13 @@
-# from ultralytics import YOLO
-
-# # Load the trained model
-# model = YOLO(r'C:\Users\Amazin\ultralytics\printvis\runs\train\custom_yolov8n10\weights\best.pt')
-
-# # Perform inference
-# results = model.predict(
-#     source=r'C:\Users\Amazin\ultralytics\printvis\pvdata2\pvdata2\test\images',
-#     save=True,
-#     imgsz=640
-# )
-
-# # Display results
-# for result in results:
-#     print(result.boxes)
-
-
 import os
 import cv2
 from ultralytics import YOLO
 
 # Load the trained YOLO model
-model = YOLO(r'C:\Users\Saksh\ultralytics\yoloenv\printvision\runs\train\custom_yolov8n10\weights\best.pt')
+model = YOLO(r'C:\Users\xyz\ultralytics\yoloenv\printvision\runs\train\custom_yolov8n10\weights\best.pt')
 
 # Specify the folder containing test images
-test_image_folder = r"C:\Users\Saksh\ultralytics\yoloenv\printvision\pvdata2\pvdata2\test\images"
-output_folder = r'C:\Users\Saksh\ultralytics\yoloenv\printvision\output_images3'
+test_image_folder = r"C:\Users\xyz\ultralytics\yoloenv\printvision\pvdata\test\images"
+output_folder = r'C:\Users\xyz\ultralytics\yoloenv\printvision\output_images'
 
 # Create the output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
