@@ -1,6 +1,6 @@
-train: C:\Users\Amazin\ultralytics\printvis\pvdata2\pvdata2\train\images
-val: C:\Users\Amazin\ultralytics\printvis\pvdata2\pvdata2\valid\images
-test: C:\Users\Amazin\ultralytics\printvis\pvdata2\pvdata2\test\images
+train: C:\Users\xyz\ultralytics\printvis\pvdata2\pvdata2\train\images
+val: C:\Users\xyz\ultralytics\printvis\pvdata2\pvdata2\valid\images
+test: C:\Users\xyz\ultralytics\printvis\pvdata2\pvdata2\test\images
 
 # Number of classes
 nc: 10   # Replace with the actual number of classes
