@@ -65,8 +65,8 @@ To use the trained model for **MRP** and **Print Vision Auto-annotation**, follo
 Annotated images with detected regions of interest (e.g., MRP area) are generated and saved automatically. Here's an example of the expected output:  
 ![Annotated Example-1](https://github.com/Sakshi13t/Auto-annotation/blob/main/MRP/notok_classification.jpg)  
 ![Annotated Example-2](https://github.com/Sakshi13t/Auto-annotation/blob/main/MRP/ok_classification.jpg)  
-![Annotated Example-3](https://github.com/Sakshi13t/Auto-annotation/blob/main/Printvision/img_1.jpg) 
-![Annotated Example-4](https://github.com/Sakshi13t/Auto-annotation/blob/main/Printvision/img_1727.jpg) 
+![Annotated Example-3](https://github.com/Sakshi13t/Auto-annotation/blob/main/Printvision/Img_1.jpg) 
+![Annotated Example-4](https://github.com/Sakshi13t/Auto-annotation/blob/main/Printvision/Image_1727.jpg) 
 
 --- 
 
