@@ -1,0 +1,6 @@
+train: C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\Dataset\train\images
+val: C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\Dataset\valid\images
+test: C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\Dataset\test\images
+
+nc: 2
+names: ['ok','notok']
