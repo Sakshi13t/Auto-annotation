@@ -1,7 +1,7 @@
 # Auto-annotation Model
  
 ## Overview  
-This repository contains an **Auto-annotation Model** that detects and classifies the MRP area in images of cement bags, as well as other specified image types. The model automates the annotation process, saving significant manual effort. It supports both MRP and print vision auto-annotation tasks.  
+This repository contains an **Auto-annotation Model** using a pre-trained model that is yolov8n that detects and classifies the MRP area in images of cement bags, as well as other specified image types. The model automates the annotation process, saving significant manual effort. It supports both MRP and print vision auto-annotation tasks.  
 
 The auto-annotation process leverages state-of-the-art machine learning techniques for accurate and efficient annotations, providing annotated images ready for use in various workflows.  
 
