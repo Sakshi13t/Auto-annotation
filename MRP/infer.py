@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load the trained model
-model = YOLO(r'C:\Users\Saksh\ultralytics\yoloenv\OK_NOTOK\yolo_mrp_training\weights\best.pt')
+model = YOLO(r'path to trained yolo model best.onnx')
 
 # Perform inference
 results = model.predict(
